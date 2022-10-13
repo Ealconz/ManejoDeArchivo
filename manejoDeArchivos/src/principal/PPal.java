@@ -15,5 +15,9 @@ public class PPal {
     public static void main(String[] args) {
         String nombreArchivo="prueba.txt";
         ManejoDeArchivos.crearArchivo(nombreArchivo);
+        ManejoDeArchivos.escribirArchivo(nombreArchivo,"hola buenos dias xd");
+        ManejoDeArchivos.agregarArchivo(nombreArchivo,"Abion");
+        ManejoDeArchivos.leerArchivo(nombreArchivo);
+        ManejoDeArchivos.leerArchivoPorPalabra(nombreArchivo);
     }
 }
